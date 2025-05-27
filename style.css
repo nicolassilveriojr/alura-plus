@@ -54,7 +54,6 @@ body {
    margin: 1em 0 2em 0;
 }
 
-
 .container__botao {
    background-color: var(--botao-azul);
    border-radius: 5px;
@@ -71,13 +70,12 @@ body {
    border: 2px solid var(--branco-principal)
 }
 
-
 .container__aviso {
    font-size: 12px;
    color: var(--cinza-secundario);
 }
 
-
+/* xxxxxxxxxxx SECUNDARIO XXXXXXXXXXXX */
 .secundario {
    align-items: center;
    margin: 0 10em;
@@ -99,8 +97,6 @@ body {
    font-size: 48px;
    color: var(--branco-principal);
    margin-bottom: 0.1em;
-
-
 }
 
 .descricao__texto {
@@ -110,4 +106,26 @@ body {
 .secundario__botao {
    display: inline-block;
    margin-top: 1em;
+}
+
+/* XXXXXXXXX dispositivos xxxxx */
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
 }
